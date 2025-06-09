@@ -11,14 +11,14 @@ if ("geolocation" in navigator) {
       const governorate = data.address.state || data.address.county || "غير معروف";
   
     var x = new XMLHttpRequest();
-    x.open( "Get" , `http://api.weatherapi.com/v1/current.json?key=930af1567fa44ef68fd212254240312&q=${governorate}` )
+    x.open( "Get" , `https://api.weatherapi.com/v1/current.json?key=930af1567fa44ef68fd212254240312&q=${governorate}` )
     x.send()
     var k ;
     x.addEventListener( "loadend" , function(){
         if(x.status<=200){
             k = JSON.parse(x.response);
           }   
-          
+
     var date = new Date(k.current.last_updated);
     var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
     var dayNumber = date.getDate();
@@ -74,7 +74,7 @@ Defolt();        // call defolt function to the current location
 
 function getCurrntday(SearchInputListener){
     var x = new XMLHttpRequest();
-    x.open( "Get" , `http://api.weatherapi.com/v1/current.json?key=930af1567fa44ef68fd212254240312&q=${SearchInputListener}` )
+    x.open( "Get" , `https://api.weatherapi.com/v1/current.json?key=930af1567fa44ef68fd212254240312&q=${SearchInputListener}` )
     x.send()
     var k ;
     x.addEventListener( "loadend" , function(){
@@ -119,7 +119,7 @@ function getCurrntday(SearchInputListener){
 function getSearchCities(SearchInputListener){
     
   var x = new XMLHttpRequest();
-  x.open( "Get" , `http://api.weatherapi.com/v1/search.json?key=930af1567fa44ef68fd212254240312&q=${SearchInputListener}` )
+  x.open( "Get" , `https://api.weatherapi.com/v1/search.json?key=930af1567fa44ef68fd212254240312&q=${SearchInputListener}` )
   x.send()
   var k ;
   x.addEventListener( "loadend" , function(){
