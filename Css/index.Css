@@ -1,0 +1,106 @@
+.Page1{
+    background-color: #1E202B;
+}
+a image{
+    font-weight : 300;
+    font-family : Roboto , "Open Sans" , sans-serif ;
+    font-size :14px;
+}
+.LogoNav{
+    margin-left: 20px;
+    margin-right: 10px;
+    height: 39px;
+    width: 64px;
+}
+.Logotop{
+    font-weight : 700;
+    font-size :16px ;
+    margin: 0;
+}
+.BtnHandel{
+    border: 3px solid #1E202B !important;
+    color: white !important;
+    background-color:#1E202B !important ;
+}
+.BtnHandel:hover{
+    border: 3px solid #009AD8 !important;
+    color: #009AD8 !important;
+    background-color:#1E202B !important ;
+    transition: all 1.2ms 2;
+    -webkit-transition: all 1.2ms 2;
+    -moz-transition: all 1.2ms 2;
+    -ms-transition: all 1.2ms 2;
+    -o-transition: all 1.2ms 2;
+}
+.Logobutton{
+    clear: both;
+    font-size :10px;
+    font-weight :300;
+    font-family : Roboto , "Open Sans" , sans-serif ;
+}
+.input-group{
+    position: absolute;
+    top: 100px;
+}
+.bodyPage{
+    position: relative;
+}
+.bodyPage img{
+    background-size: 100% 100%;
+    height: 400px;
+}
+.input1::placeholder{
+    color: #6A7575;
+}
+.input1{
+    background-color: #1E202B ;
+    color: white ;
+    border: 0 ;
+    padding: 20px;
+    font-size: 24px;
+}
+.input1:focus{
+    background-color: #1E202B ;
+    box-shadow: none;
+    color: white ;
+}
+.F1{
+    background-color: #2D303D;
+    color: #B6BAC4;
+    padding: 10px;
+}
+.card{
+    border: none;
+}
+.C1{
+    background-color: #323544;
+    color: #B6BAC4;
+    padding: 10px 10px;
+}
+.ColorCardP1{
+    color: #009AD8;
+    font-size: 12px;
+}
+.W_Cloud{
+    width: 30%;
+}
+.textcard1{
+    font-size:90px;
+    color: white;
+}
+.CardsApi{
+    height: 350px;
+}
+.handel_width{
+width: 650px;
+}
+.card-group{
+    position: absolute;
+    top: 60%;
+    right: 50%;
+    transform: translateX(50%);
+    -webkit-transform: translateX(50%);
+    -moz-transform: translateX(50%);
+    -ms-transform: translateX(50%);
+    -o-transform: translateX(50%);
+}
